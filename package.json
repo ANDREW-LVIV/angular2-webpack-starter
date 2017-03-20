@@ -5,4 +5,9 @@
   "engines": {
     "npm": "3.10.10"
   }
+  "scripts": {
+  "start": "node index.html",
+  "test": "mocha",
+  "postinstall": "bower install && grunt build"
+}
 }
